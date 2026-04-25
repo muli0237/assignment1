@@ -79,9 +79,9 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 
- Run
+## Run
 
-bash
+##bash
 python3 src/football_analysis.py
 
  Results Summary
@@ -106,5 +106,3 @@ output/
 Python | Pandas | Matplotlib | Seaborn
 
 
-## License
-MIT

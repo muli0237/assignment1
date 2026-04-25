@@ -20,7 +20,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 requirements.txt:
 
-text
+
 pandas
 matplotlib  
 seaborn
@@ -51,23 +51,14 @@ Top Teams - Wins ranking
 Full answers: output/exercise_answers.csv
 
 File Structure
-text
+
 .
 ├── data/results.csv          # Dataset
 ├── src/football_analysis.py  # Analysis code
 ├── output/                   # Results
 ├── requirements.txt
 └── README.md
-Quick Commands
-bash
-make install     # Setup
-make analyze     # Run  
-make clean       # Reset
-MIT License | Muli - Nairobi | April 2026
 
-not here in github
-
-text
 # Football Analysis Project
 
 ![Analysis Dashboard](output/football_analysis.png)
@@ -80,25 +71,20 @@ Complete Kaggle dataset analysis: **49,287 international matches** (1872-2024).
 - 4 professional charts
 - Automated answers table
 
-## Setup
 
-```bash
-git clone <repo>
-cd football-analysis
 
 # Virtual environment
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-```
 
-## Run
 
-```bash
+ Run
+
+bash
 python3 src/football_analysis.py
-```
 
-## Results Summary
+ Results Summary
 
 | Metric | Value |
 |--------|-------|
@@ -114,12 +100,11 @@ output/
 ├── football_analysis.png # Dashboard (4 charts)
 └── exercise_answers.csv # 10 exercise answers
 
-text
+
 
 ## Tech Stack
 Python | Pandas | Matplotlib | Seaborn
 
-text
 
 ## License
 MIT
